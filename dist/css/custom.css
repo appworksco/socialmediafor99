@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'font-tt-commons';
+    src: url('dist/fonts/tt-commons.otf');
+}
+
+body {
+    font-family: 'font-tt-commons';
+}
+
+.text-black {
+    color: #000;
+}
+.text-blue {
+    color: #0338A5;
+}
+.text-red {
+    color: #BD0D30;
+}
+.text-purple {
+    color: #8C52FF;
+}
+.bg-blue {
+    background-color: #0338A5;
+}
+.bg-red {
+    background-color: #BD0D30;
+}
+.bg-purple {
+    background-color: #8C52FF;
+}
+.bg-light-dark {
+    background-color: #EFEFEF;
+}
+.bg-border-dark {
+    border: 3px solid #737373;
+}
+.bg-border-purple {
+    border: 3px solid #8C52FF;
+}
+.bg-border-gradient-1 {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, #BD0D30 0%, #0338A5 100%);
+    border-image-slice: 1;
+}
+.bg-gradient-1 {
+    background-image: linear-gradient(to right, #0338A5 , #BD0D30);
+}
+.bg-gradient-2 {
+    background-image: linear-gradient(to right, #545454, #A6A6A6);
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-1 h1 {
+    letter-spacing:  -0.025em;
+}
+
+.section-2 img {
+    border-radius: 40px;
+}
+
+.section-9-img-bg {
+    height: 400px;
+    background-image: url(".././img/section-9-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.play-button {
+    position: absolute;
+    left: 38%;
+    top: 38%;
+    cursor: pointer;
+}
