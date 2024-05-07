@@ -17,13 +17,13 @@
         Menu
     </div>
     <li class="nav-item">
-        <a class="nav-link" href="index">
+        <a class="nav-link" href="client">
             <i class="fas fa-fw fa-users"></i>
             <span>Clients</span>
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="index">
+        <a class="nav-link" href="post">
             <i class="fas fa-fw fa-folder"></i>
             <span>Posts</span>
         </a>

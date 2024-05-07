@@ -31,6 +31,9 @@ body {
 .bg-light-dark {
     background-color: #EFEFEF;
 }
+.bg-light-purple {
+    background-color: #E6DAFF;
+}
 .bg-border-dark {
     border: 3px solid #737373;
 }

@@ -271,28 +271,32 @@ if (isset($_POST["submit"])) {
 <section class="section-8 py-5">
     <div class="container">
         <h1 class="fw-bold text-center pb-5">Client Feedback</h1>
-        <div class="row py-4">
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card my-2">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row py-4">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="dist/img/testimonial-1.png" class="w-100" alt="Testimonial">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="dist/img/testimonial-2.png" class="w-100" alt="Testimonial">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="dist/img/testimonial-3.png" class="w-100" alt="Testimonial">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card my-2">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card my-2">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="carousel-item">
+                    <div class="row py-4">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="dist/img/testimonial-4.png" class="w-100" alt="Testimonial">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            
+                        </div>
                     </div>
                 </div>
             </div>

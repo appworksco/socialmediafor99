@@ -14,11 +14,13 @@ $info = array(); // Array to hold info messages
 include(__DIR__ . '/../../db/connector.php'); // Include file for database connectivity
 include(__DIR__ . '/../models/users-facade.php');
 include(__DIR__ . '/../models/call-schedule-facade.php');
+include(__DIR__ . '/../models/crud-facade.php');
 
 // Initialize classes
 $dbConnection = new DBConnection(); // Initialize database connection class
 $usersFacade = new UsersFacade(); // Initialize users facade class
 $callScheduleFacade = new CallScheduleFacade(); // Initialize call schedule facade class
+$crudFacade = new CRUDFacade(); // Initialize call schedule facade class
 
 ?>
 
